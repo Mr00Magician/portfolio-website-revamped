@@ -14,19 +14,22 @@ const Hero = () => {
         </p>
         <div className="flex justify-center gap-6 animate-scale-in">
           <a
-            href="#"
+            href="https://github.com/Mr00Magician"
+            target="_blank"
             className="text-gray-400 hover:text-blue-400 transform hover:scale-125 transition-all duration-300"
           >
             <Github size={28} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/meanasnadeem/"
+            target="_blank"
             className="text-gray-400 hover:text-blue-400 transform hover:scale-125 transition-all duration-300"
           >
             <Linkedin size={28} />
           </a>
           <a
-            href="#"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=meanasnadeem@gmail.com"
+            target="_blank"
             className="text-gray-400 hover:text-blue-400 transform hover:scale-125 transition-all duration-300"
           >
             <Mail size={28} />
