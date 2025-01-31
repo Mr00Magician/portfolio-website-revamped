@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Brain,
-  Cloud,
-  Code,
-  Database,
-  FlaskRound as Flask,
-  GitBranch,
-  Globe,
-  Layout,
-} from "lucide-react";
+import { Brain, Cloud, Code, Layout } from "lucide-react";
 
 const Skills = () => {
   return (
