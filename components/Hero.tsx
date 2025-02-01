@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
+import "./Hero.css";
 
 const Hero = () => {
   return (
@@ -8,10 +9,11 @@ const Hero = () => {
         <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600 animate-fade-in">
           Hey, I am Anas
         </h1>
-        <p className="text-xl md:text-3xl text-gray-300 mb-8 animate-slide-up">
+        <p className="text-xl md:text-3xl mb-8 relative animate-text-light-ray">
           A Machine Learning Engineer experienced in developing end-to-end
           software around ML.
         </p>
+
         <div className="flex justify-center gap-6 animate-scale-in">
           <a
             href="https://github.com/Mr00Magician"
