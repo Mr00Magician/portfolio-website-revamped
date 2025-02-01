@@ -1,0 +1,30 @@
+@keyframes text-light-ray {
+  0% {
+    background-position: -200%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+.animate-text-light-ray {
+  /* Apply a visible gradient */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 234, 255, 0.5),
+    rgba(0, 234, 255, 0.5),
+    rgba(0, 234, 255, 0.5),
+    rgba(0, 234, 255, 0.8),
+    rgba(0, 234, 255, 0.5),
+    rgba(0, 234, 255, 0.5),
+    rgba(0, 234, 255, 0.5)
+  );
+  background-size: 200% 100%; /* Gradient larger than text */
+  background-position: -200%;
+  color: transparent; /* Make the text transparent so the background can show through */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text; /* For browsers that support it */
+
+  /* Set the animation */
+  animation: text-light-ray 5s linear infinite;
+}
