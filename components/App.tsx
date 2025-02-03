@@ -5,6 +5,7 @@ import GeometricShapes from "@/components/GeometricShapes";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 import "./index.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
       <Experience />
       <Skills />
+      <Projects />
     </div>
   );
 }
